@@ -1,0 +1,107 @@
+/* Design Colors */
+:root {
+    --green: #174b4b;
+    --light: #dceee5;
+    --white: white;
+    --text: #243b53;
+}
+
+/* All Elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background-color: #f0f3f8;
+    color: var(--text);
+    font-family: Arial, sans-serif;
+
+}
+.profile img {
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* Header */
+header {
+    background-color: var(--green);
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Hover */
+nav a:hover {
+    color: yellow;
+}
+
+/* Home Section */
+.hero {
+    background-color: var(--light);
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+    background-color: var(--green);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Profile Photo */
+.profile img {
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* All Sections */
+section {
+    padding: 20px;
+}
+
+/* Projects */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--green);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
